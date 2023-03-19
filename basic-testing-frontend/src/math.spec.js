@@ -66,5 +66,5 @@ it('should throw an error if provided with multiple arguments rather than an arr
     add(num1, num2);
   };
 
-  expect(resultFunction).toThrow();
+  expect(resultFunction).toThrow(/is not iterable/);
 });
